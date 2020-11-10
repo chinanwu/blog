@@ -1,0 +1,41 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Salmon's Learning Blog",
+  "main": "src/main.js",
+  "scripts": {
+    "format": "npx prettier --write .",
+    "test": "echo \"Make tests, Salmon!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinanwu/blog.git"
+  },
+  "keywords": [
+    "chinanwu",
+    "Salmon",
+    "blog"
+  ],
+  "author": "Chin-An Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinanwu/blog/issues"
+  },
+  "homepage": "https://github.com/chinanwu/blog#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-numeric-separators": "0.0.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "less": "^3.12.2",
+    "prettier": "2.1.2",
+    "prettier-plugin-svelte": "^1.4.1",
+    "rollup": "^2.33.1",
+    "svelte": "^3.29.4"
+  },
+  "dependencies": {}
+}
